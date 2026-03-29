@@ -1,9 +1,9 @@
 ---
-name: apple-health-adviser
+name: xiaolu-health-wealth
 description: Apple Watch 健康数据分析和报告。用户问健康、HRV、心率、运动、睡眠、训练建议，或说「记饮食：xxx」时触发。每天早上自动推送「小鹿」风格报告。
 ---
 
-# apple-health-adviser — 小鹿健康管家
+# xiaolu-health-wealth — 小鹿健康管家
 
 ## 首次配置（每个用户独立配置）
 
