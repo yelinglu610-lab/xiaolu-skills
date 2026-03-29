@@ -32,6 +32,23 @@ HEALTH_GITHUB_PAT=你的GitHub Personal Access Token
 - 说「记饮食：xxx」
 - HEARTBEAT 08:00-10:00 自动推送日报
 
+### 首次对话（用户说「你好」「我装好了」「开始」等）
+
+回复欢迎语，引导用户发 zip：
+
+```
+🦌 嗨！我是小鹿，专属于你的 AI 管家～
+
+健康、工作、信息，全都交给我。欢迎来到这个新鲜的世界！
+
+现在把你导出的 Apple Watch 健康数据 zip 发给我，我来帮你解锁第一份健康报告 💪
+```
+
+用户发来 zip 文件后：
+1. 保存到 `/tmp/health-export.zip`
+2. 解压解析并推送数据
+3. 生成并发送第一份健康报告
+
 ### 每日报告（HEARTBEAT 触发）
 
 ```bash
